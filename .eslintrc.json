@@ -4,19 +4,37 @@
         "es2021": true
     },
     "extends": [
+        "eslint:recommended",
         "plugin:react/recommended",
-        "standard-with-typescript"
+        "react-app",
+        "plugin:@typescript-eslint/recommended"
     ],
     "overrides": [
     ],
     "parserOptions": {
         "project": ["./tsconfig.json"],
+        "ecmaFeatures": {
+            "jsx": true
+        },
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "@typescript-eslint"
     ],
     "rules": {
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "no-console": ["error", { "allow": ["warn", "error"] }],
+        "no-duplicate-imports": "error",
+        "react/no-array-index-key": "warn",
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "jsx-quotes": ["error", "prefer-double"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "newline-before-return": "error",
+        "camelcase": "warn",
+        "object-curly-spacing": ["error", "always"],
+        "spaced-comment": "warn"
     }
 }
