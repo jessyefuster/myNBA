@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "lint:check": "eslint src/**/*.tsx"
+    "lint:check": "eslint src/**/*.{ts,tsx}",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
@@ -38,6 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.42.0",
     "eslint": "^8.26.0",
-    "eslint-plugin-react": "^7.31.10"
+    "eslint-plugin-react": "^7.31.10",
+    "husky": "^8.0.0"
   }
 }
