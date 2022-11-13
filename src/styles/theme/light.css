@@ -1,0 +1,61 @@
+:root {
+  color-scheme: light;
+  /* Surface tint */
+  --sys-color-surface-tint: var(--sys-color-primary);
+  /* Surface tint color */
+  --sys-color-surface-tint-color: var(--sys-color-primary);
+  /* On error container */
+  --sys-color-on-error-container: var(--ref-palette-error10);
+  /* On error */
+  --sys-color-on-error: var(--ref-palette-error100);
+  /* Error container */
+  --sys-color-error-container: var(--ref-palette-error90);
+  /* On tertiary container */
+  --sys-color-on-tertiary-container: var(--ref-palette-tertiary10);
+  /* On tertiary */
+  --sys-color-on-tertiary: var(--ref-palette-tertiary100);
+  /* Tertiary container */
+  --sys-color-tertiary-container: var(--ref-palette-tertiary90);
+  /* Tertiary */
+  --sys-color-tertiary: var(--ref-palette-tertiary40);
+  /* Shadow */
+  --sys-color-shadow: var(--ref-palette-neutral0);
+  /* Error */
+  --sys-color-error: var(--ref-palette-error40);
+  /* Outline */
+  --sys-color-outline: var(--ref-palette-neutral-variant50);
+  /* On background */
+  --sys-color-on-background: var(--ref-palette-neutral10);
+  /* Background */
+  --sys-color-background: var(--ref-palette-neutral99);
+  /* Inverse on surface */
+  --sys-color-inverse-on-surface: var(--ref-palette-neutral95);
+  /* Inverse surface */
+  --sys-color-inverse-surface: var(--ref-palette-neutral20);
+  /* On surface variant */
+  --sys-color-on-surface-variant: var(--ref-palette-neutral-variant30);
+  /* On surface */
+  --sys-color-on-surface: var(--ref-palette-neutral10);
+  /* Surface Variant */
+  --sys-color-surface-variant: var(--ref-palette-neutral-variant90);
+  /* Surface */
+  --sys-color-surface: var(--ref-palette-neutral99);
+  /* On secondary container */
+  --sys-color-on-secondary-container: var(--ref-palette-secondary10);
+  /* On secondary */
+  --sys-color-on-secondary: var(--ref-palette-secondary100);
+  /* Secondary container */
+  --sys-color-secondary-container: var(--ref-palette-secondary90);
+  /* Secondary */
+  --sys-color-secondary: var(--ref-palette-secondary40);
+  /* Inverse primary */
+  --sys-color-inverse-primary: var(--ref-palette-primary80);
+  /* On primary container */
+  --sys-color-on-primary-container: var(--ref-palette-primary10);
+  /* On primary */
+  --sys-color-on-primary: var(--ref-palette-primary100);
+  /* Primary container */
+  --sys-color-primary-container: var(--ref-palette-primary90);
+  /* Primary */
+  --sys-color-primary: var(--ref-palette-primary40);
+}

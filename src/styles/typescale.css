@@ -1,0 +1,340 @@
+:root {
+  /* Label Small */
+  --sys-typescale-label-small-text-transform: unset;
+  --sys-typescale-label-small-axis-value: unset;
+  --sys-typescale-label-small-font-style: unset;
+  --sys-typescale-label-small-text-decoration: unset;
+  /* Label Small line height */
+  --sys-typescale-label-small-line-height-value: 16px;
+  --sys-typescale-label-small-line-height-unit: 2px;
+  --sys-typescale-label-small-line-height: 16px;
+  /* Label Small font tracking */
+  --sys-typescale-label-small-tracking-value: 0.5px;
+  --sys-typescale-label-small-tracking-unit: 2px;
+  --sys-typescale-label-small-tracking: 0.5px;
+  /* Label Small font size */
+  --sys-typescale-label-small-size-value: 11px;
+  --sys-typescale-label-small-size-unit: 2px;
+  --sys-typescale-label-small-size: 11px;
+  /* Label Small font weight */
+  --sys-typescale-label-small-weight: var(--ref-typeface-weight-medium);
+  /* Label Small font name */
+  --sys-typescale-label-small-font: var(--ref-typeface-plain);
+  /* Label Medium */
+  --sys-typescale-label-medium-axis-value: unset;
+  --sys-typescale-label-medium-font-style: unset;
+  --sys-typescale-label-medium-text-decoration: unset;
+  /* Label Medium text transform */
+  --sys-typescale-label-medium-text-transform: 1;
+  /* Label Medium line height */
+  --sys-typescale-label-medium-line-height-value: 16px;
+  --sys-typescale-label-medium-line-height-unit: 2px;
+  --sys-typescale-label-medium-line-height: 16px;
+  /* Label Medium font tracking */
+  --sys-typescale-label-medium-tracking-value: 0.5px;
+  --sys-typescale-label-medium-tracking-unit: 2px;
+  --sys-typescale-label-medium-tracking: 0.5px;
+  /* Label Medium font size */
+  --sys-typescale-label-medium-size-value: 12px;
+  --sys-typescale-label-medium-size-unit: 2px;
+  --sys-typescale-label-medium-size: 12px;
+  /* Label Medium font weight */
+  --sys-typescale-label-medium-weight: var(--ref-typeface-weight-medium);
+  /* Label Medium font name */
+  --sys-typescale-label-medium-font: var(--ref-typeface-plain);
+  /* Label Large */
+  --sys-typescale-label-large-text-transform: unset;
+  --sys-typescale-label-large-axis-value: unset;
+  --sys-typescale-label-large-font-style: unset;
+  --sys-typescale-label-large-text-decoration: unset;
+  /* Label Large line height */
+  --sys-typescale-label-large-line-height-value: 20px;
+  --sys-typescale-label-large-line-height-unit: 2px;
+  --sys-typescale-label-large-line-height: 20px;
+  /* Label Large font tracking */
+  --sys-typescale-label-large-tracking-value: 0.10000000149011612px;
+  --sys-typescale-label-large-tracking-unit: 2px;
+  --sys-typescale-label-large-tracking: 0.10000000149011612px;
+  /* Label Large font size */
+  --sys-typescale-label-large-size-value: 14px;
+  --sys-typescale-label-large-size-unit: 2px;
+  --sys-typescale-label-large-size: 14px;
+  /* Label Large font weight */
+  --sys-typescale-label-large-weight: var(--ref-typeface-weight-medium);
+  /* Label Large font name */
+  --sys-typescale-label-large-font: var(--ref-typeface-plain);
+  /* Body Small */
+  --sys-typescale-body-small-text-transform: unset;
+  --sys-typescale-body-small-axis-value: unset;
+  --sys-typescale-body-small-font-style: unset;
+  --sys-typescale-body-small-text-decoration: unset;
+  /* Body Small line height */
+  --sys-typescale-body-small-line-height-value: 16px;
+  --sys-typescale-body-small-line-height-unit: 2px;
+  --sys-typescale-body-small-line-height: 16px;
+  /* Body Small font tracking */
+  --sys-typescale-body-small-tracking-value: 0.4000000059604645px;
+  --sys-typescale-body-small-tracking-unit: 2px;
+  --sys-typescale-body-small-tracking: 0.4000000059604645px;
+  /* Body Small font size */
+  --sys-typescale-body-small-size-value: 12px;
+  --sys-typescale-body-small-size-unit: 2px;
+  --sys-typescale-body-small-size: 12px;
+  /* Body Small font weight */
+  --sys-typescale-body-small-weight: var(--ref-typeface-weight-regular);
+  /* Body Small font name */
+  --sys-typescale-body-small-font: var(--ref-typeface-plain);
+  /* Body Medium */
+  --sys-typescale-body-medium-text-transform: unset;
+  --sys-typescale-body-medium-axis-value: unset;
+  --sys-typescale-body-medium-font-style: unset;
+  --sys-typescale-body-medium-text-decoration: unset;
+  /* Body Medium line height */
+  --sys-typescale-body-medium-line-height-value: 20px;
+  --sys-typescale-body-medium-line-height-unit: 2px;
+  --sys-typescale-body-medium-line-height: 20px;
+  /* Body Medium font tracking */
+  --sys-typescale-body-medium-tracking-value: 0.25px;
+  --sys-typescale-body-medium-tracking-unit: 2px;
+  --sys-typescale-body-medium-tracking: 0.25px;
+  /* Body Medium font size */
+  --sys-typescale-body-medium-size-value: 14px;
+  --sys-typescale-body-medium-size-unit: 2px;
+  --sys-typescale-body-medium-size: 14px;
+  /* Body Medium font weight */
+  --sys-typescale-body-medium-weight: var(--ref-typeface-weight-regular);
+  /* Body Medium font name */
+  --sys-typescale-body-medium-font: var(--ref-typeface-plain);
+  /* Body Large */
+  --sys-typescale-body-large-text-transform: unset;
+  --sys-typescale-body-large-axis-value: unset;
+  --sys-typescale-body-large-font-style: unset;
+  --sys-typescale-body-large-text-decoration: unset;
+  /* Body Large line height */
+  --sys-typescale-body-large-line-height-value: 24px;
+  --sys-typescale-body-large-line-height-unit: 2px;
+  --sys-typescale-body-large-line-height: 24px;
+  /* Body Large font tracking */
+  --sys-typescale-body-large-tracking-value: 0.5px;
+  --sys-typescale-body-large-tracking-unit: 2px;
+  --sys-typescale-body-large-tracking: 0.5px;
+  /* Body Large font size */
+  --sys-typescale-body-large-size-value: 16px;
+  --sys-typescale-body-large-size-unit: 2px;
+  --sys-typescale-body-large-size: 16px;
+  /* Body Large font weight */
+  --sys-typescale-body-large-weight: var(--ref-typeface-weight-regular);
+  /* Body Large font name */
+  --sys-typescale-body-large-font: var(--ref-typeface-plain);
+  /* Title Small */
+  --sys-typescale-title-small-text-transform: unset;
+  --sys-typescale-title-small-axis-value: unset;
+  --sys-typescale-title-small-font-style: unset;
+  --sys-typescale-title-small-text-decoration: unset;
+  /* Title Small line height */
+  --sys-typescale-title-small-line-height-value: 20px;
+  --sys-typescale-title-small-line-height-unit: 2px;
+  --sys-typescale-title-small-line-height: 20px;
+  /* Title Small font tracking */
+  --sys-typescale-title-small-tracking-value: 0.10000000149011612px;
+  --sys-typescale-title-small-tracking-unit: 2px;
+  --sys-typescale-title-small-tracking: 0.10000000149011612px;
+  /* Title Small font size */
+  --sys-typescale-title-small-size-value: 14px;
+  --sys-typescale-title-small-size-unit: 2px;
+  --sys-typescale-title-small-size: 14px;
+  /* Title Small font weight */
+  --sys-typescale-title-small-weight: var(--ref-typeface-weight-medium);
+  /* Title Small font name */
+  --sys-typescale-title-small-font: var(--ref-typeface-plain);
+  /* Title Medium */
+  --sys-typescale-title-medium-text-transform: unset;
+  --sys-typescale-title-medium-axis-value: unset;
+  --sys-typescale-title-medium-font-style: unset;
+  --sys-typescale-title-medium-text-decoration: unset;
+  /* Title Medium line height */
+  --sys-typescale-title-medium-line-height-value: 24px;
+  --sys-typescale-title-medium-line-height-unit: 2px;
+  --sys-typescale-title-medium-line-height: 24px;
+  /* Title Medium font tracking */
+  --sys-typescale-title-medium-tracking-value: 0.15000000596046448px;
+  --sys-typescale-title-medium-tracking-unit: 2px;
+  --sys-typescale-title-medium-tracking: 0.15000000596046448px;
+  /* Title Medium font size */
+  --sys-typescale-title-medium-size-value: 16px;
+  --sys-typescale-title-medium-size-unit: 2px;
+  --sys-typescale-title-medium-size: 16px;
+  /* Title Medium font weight */
+  --sys-typescale-title-medium-weight: var(--ref-typeface-weight-medium);
+  /* Title Medium font name */
+  --sys-typescale-title-medium-font: var(--ref-typeface-plain);
+  /* Title Large */
+  --sys-typescale-title-large-text-transform: unset;
+  --sys-typescale-title-large-axis-value: unset;
+  --sys-typescale-title-large-font-style: unset;
+  --sys-typescale-title-large-text-decoration: unset;
+  /* Title Large line height */
+  --sys-typescale-title-large-line-height-value: 28px;
+  --sys-typescale-title-large-line-height-unit: 2px;
+  --sys-typescale-title-large-line-height: 28px;
+  /* Title Large font tracking */
+  --sys-typescale-title-large-tracking-value: 0px;
+  --sys-typescale-title-large-tracking-unit: 2px;
+  --sys-typescale-title-large-tracking: 0px;
+  /* Title Large font size */
+  --sys-typescale-title-large-size-value: 22px;
+  --sys-typescale-title-large-size-unit: 2px;
+  --sys-typescale-title-large-size: 22px;
+  /* Title Large font weight */
+  --sys-typescale-title-large-weight: var(--ref-typeface-weight-regular);
+  /* Title Large font name */
+  --sys-typescale-title-large-font: var(--ref-typeface-brand);
+  /* Headline Small */
+  --sys-typescale-headline-small-text-transform: unset;
+  --sys-typescale-headline-small-axis-value: unset;
+  --sys-typescale-headline-small-font-style: unset;
+  --sys-typescale-headline-small-text-decoration: unset;
+  /* Headline Small line height */
+  --sys-typescale-headline-small-line-height-value: 32px;
+  --sys-typescale-headline-small-line-height-unit: 2px;
+  --sys-typescale-headline-small-line-height: 32px;
+  /* Headline Small font tracking */
+  --sys-typescale-headline-small-tracking-value: 0px;
+  --sys-typescale-headline-small-tracking-unit: 2px;
+  --sys-typescale-headline-small-tracking: 0px;
+  /* Headline Small font size */
+  --sys-typescale-headline-small-size-value: 24px;
+  --sys-typescale-headline-small-size-unit: 2px;
+  --sys-typescale-headline-small-size: 24px;
+  /* Headline Small font weight */
+  --sys-typescale-headline-small-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Headline Small font name */
+  --sys-typescale-headline-small-font: var(--ref-typeface-brand);
+  /* Headline Medium */
+  --sys-typescale-headline-medium-text-transform: unset;
+  --sys-typescale-headline-medium-axis-value: unset;
+  --sys-typescale-headline-medium-font-style: unset;
+  --sys-typescale-headline-medium-text-decoration: unset;
+  /* Headline Medium line height */
+  --sys-typescale-headline-medium-line-height-value: 36px;
+  --sys-typescale-headline-medium-line-height-unit: 2px;
+  --sys-typescale-headline-medium-line-height: 36px;
+  /* Headline Medium font tracking */
+  --sys-typescale-headline-medium-tracking-value: 0px;
+  --sys-typescale-headline-medium-tracking-unit: 2px;
+  --sys-typescale-headline-medium-tracking: 0px;
+  /* Headline Medium font size */
+  --sys-typescale-headline-medium-size-value: 28px;
+  --sys-typescale-headline-medium-size-unit: 2px;
+  --sys-typescale-headline-medium-size: 28px;
+  /* Headline Medium font weight */
+  --sys-typescale-headline-medium-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Headline Medium font name */
+  --sys-typescale-headline-medium-font: var(--ref-typeface-brand);
+  /* Headline Large */
+  --sys-typescale-headline-large-text-transform: unset;
+  --sys-typescale-headline-large-axis-value: unset;
+  --sys-typescale-headline-large-font-style: unset;
+  --sys-typescale-headline-large-text-decoration: unset;
+  /* Headline Large line height */
+  --sys-typescale-headline-large-line-height-value: 40px;
+  --sys-typescale-headline-large-line-height-unit: 2px;
+  --sys-typescale-headline-large-line-height: 40px;
+  /* Headline Large font tracking */
+  --sys-typescale-headline-large-tracking-value: 0px;
+  --sys-typescale-headline-large-tracking-unit: 2px;
+  --sys-typescale-headline-large-tracking: 0px;
+  /* Headline Large font size */
+  --sys-typescale-headline-large-size-value: 32px;
+  --sys-typescale-headline-large-size-unit: 2px;
+  --sys-typescale-headline-large-size: 32px;
+  /* Headline Large font name */
+  --sys-typescale-headline-large-font: var(--ref-typeface-brand);
+  /* Headline Large font weight */
+  --sys-typescale-headline-large-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Display Small */
+  --sys-typescale-display-small-text-transform: unset;
+  --sys-typescale-display-small-axis-value: unset;
+  --sys-typescale-display-small-font-style: unset;
+  --sys-typescale-display-small-text-decoration: unset;
+  /* Display Small line height */
+  --sys-typescale-display-small-line-height-value: 44px;
+  --sys-typescale-display-small-line-height-unit: 2px;
+  --sys-typescale-display-small-line-height: 44px;
+  /* Display Small font tracking */
+  --sys-typescale-display-small-tracking-value: 0px;
+  --sys-typescale-display-small-tracking-unit: 2px;
+  --sys-typescale-display-small-tracking: 0px;
+  /* Display Small font size */
+  --sys-typescale-display-small-size-value: 36px;
+  --sys-typescale-display-small-size-unit: 2px;
+  --sys-typescale-display-small-size: 36px;
+  /* Display Small font weight */
+  --sys-typescale-display-small-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Display Small font name */
+  --sys-typescale-display-small-font: var(--ref-typeface-brand);
+  /* Display Medium */
+  --sys-typescale-display-medium-text-transform: unset;
+  --sys-typescale-display-medium-axis-value: unset;
+  --sys-typescale-display-medium-font-style: unset;
+  --sys-typescale-display-medium-text-decoration: unset;
+  /* Display Medium line height */
+  --sys-typescale-display-medium-line-height-value: 52px;
+  --sys-typescale-display-medium-line-height-unit: 2px;
+  --sys-typescale-display-medium-line-height: 52px;
+  /* Display Medium font tracking */
+  --sys-typescale-display-medium-tracking-value: 0px;
+  --sys-typescale-display-medium-tracking-unit: 2px;
+  --sys-typescale-display-medium-tracking: 0px;
+  /* Display Medium font size */
+  --sys-typescale-display-medium-size-value: 45px;
+  --sys-typescale-display-medium-size-unit: 2px;
+  --sys-typescale-display-medium-size: 45px;
+  /* Display Medium font weight */
+  --sys-typescale-display-medium-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Display Medium font name */
+  --sys-typescale-display-medium-font: var(--ref-typeface-brand);
+  /* Display Large */
+  --sys-typescale-display-large-text-transform: unset;
+  --sys-typescale-display-large-axis-value: unset;
+  --sys-typescale-display-large-font-style: unset;
+  --sys-typescale-display-large-text-decoration: unset;
+  /* Display Large line height */
+  --sys-typescale-display-large-line-height-value: 64px;
+  --sys-typescale-display-large-line-height-unit: 2px;
+  --sys-typescale-display-large-line-height: 64px;
+  /* Display Large font tracking */
+  --sys-typescale-display-large-tracking-value: -0.25px;
+  --sys-typescale-display-large-tracking-unit: 2px;
+  --sys-typescale-display-large-tracking: -0.25px;
+  /* Display Large font size */
+  --sys-typescale-display-large-size-value: 57px;
+  --sys-typescale-display-large-size-unit: 2px;
+  --sys-typescale-display-large-size: 57px;
+  /* Display Large font weight */
+  --sys-typescale-display-large-weight: var(
+    --ref-typeface-weight-regular
+  );
+  /* Display Large font name */
+  --sys-typescale-display-large-font: var(--ref-typeface-brand);
+  /* Plain typeface */
+  --ref-typeface-plain: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* Brand typeface */
+  --ref-typeface-brand: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  /* Bold weight */
+  --ref-typeface-weight-bold: 700;
+  /* Medium weight */
+  --ref-typeface-weight-medium: 500;
+  /* Regular weight */
+  --ref-typeface-weight-regular: 400;
+}
