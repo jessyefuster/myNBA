@@ -1,4 +1,6 @@
 {
   "title": "Bienvenue sur le site myNBA",
-  "learnReact": "Apprendre React"
+  "learnReact": "Apprendre React",
+  "pageNotFound": "Ce que vous cherchez n'existe pas",
+  "goBackHome": "Revenir à l'accueil"
 }

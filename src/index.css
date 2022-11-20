@@ -5,6 +5,10 @@
 @import url(styles/theme/light.css) screen and (prefers-color-scheme: light);
 @import url(styles/theme/dark.css) screen and (prefers-color-scheme: dark);
 
+:root {
+  --header-height: 80px;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -14,4 +18,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  min-height: calc(100vh - var(--header-height));
 }

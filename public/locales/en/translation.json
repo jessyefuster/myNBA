@@ -1,4 +1,6 @@
 {
   "title": "Welcome to myNBA website",
-  "learnReact": "Learn React"
+  "learnReact": "Learn React",
+  "pageNotFound": "Can't find what you're looking for",
+  "goBackHome": "Go back to home"
 }
