@@ -1,3 +1,5 @@
+> :construction: This website is a WIP and doesn't implement NBA features yet :construction:
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
