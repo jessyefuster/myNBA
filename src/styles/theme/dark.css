@@ -39,7 +39,7 @@
   /* Surface Variant */
   --sys-color-surface-variant: var(--ref-palette-neutral-variant30);
   /* Surface */
-  --sys-color-surface: var(--ref-palette-neutral10);
+  --sys-color-surface: var(--ref-palette-neutral20);
   /* On secondary container */
   --sys-color-on-secondary-container: var(--ref-palette-secondary90);
   /* On secondary */

@@ -3,7 +3,8 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className={`${styles.container}`}>
+    // <AppBar>Logo</AppBar>
+    <header className={`primary ${styles.container}`}>
       <img src={logo} className={styles.logo} alt="logo" />
       <h1 className="headline-small">
         myNBA

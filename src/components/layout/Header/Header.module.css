@@ -1,6 +1,4 @@
 .container {
-  background-color: var(--ref-palette-primary40);
-  color: var(--ref-palette-primary100);
   height: var(--header-height);
   display: flex;
   flex-direction: row;
@@ -11,9 +9,4 @@
   padding: 10px;
   height: calc(100% - 20px);
   pointer-events: none;
-}
-
-.title {
-  color: #61dafb;
-  text-decoration: underline;
 }

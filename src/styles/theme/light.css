@@ -17,7 +17,7 @@
   /* Tertiary container */
   --sys-color-tertiary-container: var(--ref-palette-tertiary90);
   /* Tertiary */
-  --sys-color-tertiary: var(--ref-palette-tertiary40);
+  --sys-color-tertiary: var(--ref-palette-tertiary70);
   /* Shadow */
   --sys-color-shadow: var(--ref-palette-neutral0);
   /* Error */
@@ -27,7 +27,7 @@
   /* On background */
   --sys-color-on-background: var(--ref-palette-neutral10);
   /* Background */
-  --sys-color-background: var(--ref-palette-neutral99);
+  --sys-color-background: var(--ref-palette-neutral95);
   /* Inverse on surface */
   --sys-color-inverse-on-surface: var(--ref-palette-neutral95);
   /* Inverse surface */
@@ -47,7 +47,7 @@
   /* Secondary container */
   --sys-color-secondary-container: var(--ref-palette-secondary90);
   /* Secondary */
-  --sys-color-secondary: var(--ref-palette-secondary40);
+  --sys-color-secondary: var(--ref-palette-secondary60);
   /* Inverse primary */
   --sys-color-inverse-primary: var(--ref-palette-primary80);
   /* On primary container */
@@ -57,5 +57,5 @@
   /* Primary container */
   --sys-color-primary-container: var(--ref-palette-primary90);
   /* Primary */
-  --sys-color-primary: var(--ref-palette-primary40);
+  --sys-color-primary: var(--ref-palette-primary70);
 }
