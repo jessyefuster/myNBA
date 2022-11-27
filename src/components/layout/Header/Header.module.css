@@ -6,7 +6,13 @@
 }
 
 .logo {
-  padding: 10px;
-  height: calc(100% - 20px);
-  pointer-events: none;
+  padding: 20px;
+  height: calc(100% - 40px);
+  transition: transform .7s ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo:hover {
+    transform: rotate(180deg);
+  }
 }
