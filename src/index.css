@@ -7,6 +7,33 @@
 
 :root {
   --header-height: 80px;
+
+  --mui-palette-primary-main: var(--ref-palette-primary70) !important;
+  --mui-palette-primary-dark: var(--ref-palette-primary60) !important;
+  --mui-palette-primary-light: var(--ref-palette-primary80) !important;
+  --mui-palette-primary-contrastText: rgba(0, 0, 0, 0.87) !important;
+  --mui-palette-primary-mainChannel: 255 179 0 !important;
+  --mui-palette-primary-lightChannel: 255 194 51 !important;
+  --mui-palette-primary-darkChannel: 239 108 0 !important;
+  --mui-palette-primary-contrastTextChannel: 0 0 0 !important;
+
+  --mui-palette-secondary-main: var(--ref-palette-secondary70) !important;
+  --mui-palette-secondary-light: var(--ref-palette-secondary80) !important;
+  --mui-palette-secondary-dark: var(--ref-palette-secondary60) !important;
+  --mui-palette-secondary-contrastText: rgba(0, 0, 0, 0.87) !important;
+  --mui-palette-secondary-mainChannel: 0 172 193 !important;
+  --mui-palette-secondary-lightChannel: 51 188 205 !important;
+  --mui-palette-secondary-darkChannel: 0 120 135 !important;
+  --mui-palette-secondary-contrastTextChannel: 0 0 0 !important;
+
+  --mui-palette-common-background: var(--sys-color-background) !important;
+  --mui-palette-common-onBackground: var(--sys-color-on-background) !important;
+  --mui-palette-common-backgroundChannel: 255 255 255 !important;
+  --mui-palette-common-onBackgroundChannel: 0 0 0 !important;
+
+  --mui-palette-background-paper: var(--sys-color-surface) !important;
+  --mui-palette-background-default: var(--sys-color-background) !important;
+  --mui-palette-background-defaultChannel: 255 255 255 !important;
 }
 
 body {

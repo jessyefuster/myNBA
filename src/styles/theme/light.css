@@ -58,4 +58,11 @@
   --sys-color-primary-container: var(--ref-palette-primary90);
   /* Primary */
   --sys-color-primary: var(--ref-palette-primary70);
+
+  --mui-palette-text-primary: rgba(0, 0, 0, 0.87) !important;
+  --mui-palette-text-secondary: rgba(0, 0, 0, 0.6) !important;
+  --mui-palette-text-disabled: rgba(0, 0, 0, 0.38) !important;
+  --mui-palette-text-primaryChannel: 0 0 0 !important;
+  --mui-palette-text-secondaryChannel: 0 0 0 !important;
+  --mui-palette-divider: rgba(0, 0, 0, 0.12) !important;
 }
