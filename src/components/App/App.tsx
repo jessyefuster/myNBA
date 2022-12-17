@@ -5,6 +5,7 @@ import {
 } from '@mui/material/styles';
 import Header from 'components/layout/Header';
 import Home from 'pages/Home';
+import Teams from 'pages/Teams';
 import NotFound from 'pages/NotFound';
 
 const theme = extendTheme({
@@ -60,6 +61,7 @@ const App = () => {
     <CssVarsProvider theme={theme}>
       <Header />
       <Routes>
+        <Route path="/teams" element={<Teams />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
