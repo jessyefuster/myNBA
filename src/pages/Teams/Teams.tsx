@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
+import { Container } from '@mui/material';
 import TeamsService, { Team } from 'api/services/Teams';
-import styles from './Teams.module.css';
+import TeamsCard from 'features/Teams/TeamsCard/TeamsCard';
 
 const Teams = () => {
   const [teams, setTeams] = useState<Team[]>([]);
@@ -21,15 +22,10 @@ const Teams = () => {
   }, []);
 
   return (
-    <main className={`background ${styles.container}`}>
-      {teams.map(team => (
-        <div key={team.teamId} className={styles.team}>
-          <img className={`logo ${styles.teamLogo}`} src={team.logoUrl} alt="team logo" />
-          <p className={`title-medium ${styles.teamName}`}>
-            {team.fullName}
-          </p>
-        </div>
-      ))}
+    <main className="background">
+      <Container maxWidth="lg">
+        <TeamsCard teams={teams} />
+      </Container>
     </main>
   );
 }

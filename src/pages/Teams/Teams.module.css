@@ -6,18 +6,3 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
-
-.team {
-  display: flex;
-  align-items: center;
-}
-
-.teamLogo {
-  height: 60px;
-}
-
-.teamName {
-  text-align: left;
-  flex-shrink: 0;
-  margin-left: 10px;
-}

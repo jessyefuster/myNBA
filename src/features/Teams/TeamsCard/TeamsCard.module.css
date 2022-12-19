@@ -1,0 +1,19 @@
+.team {
+  display: flex;
+  align-items: center;
+}
+
+.teamLogo {
+  height: 60px;
+}
+
+.teamName {
+  text-align: left;
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+.list {
+  width: 50%;
+  display: inline-block;
+}
