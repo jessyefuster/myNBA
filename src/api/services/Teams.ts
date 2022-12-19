@@ -40,9 +40,12 @@ interface EasternTeam extends Team {
 }
 
 interface WesternTeam extends Team {
-  confName: 'East',
+  confName: 'West',
   divName: WesternDivision
 }
+
+export const isWesternTeam = (team: Team): team is WesternTeam => team.confName === 'West';
+export const isEasternTeam = (team: Team): team is EasternTeam => team.confName === 'East';
 
 const getTeams = async () => {
   const data = await client.get('teams.json').json<TeamDTO[]>();
