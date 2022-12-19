@@ -49,4 +49,5 @@ code {
 
 main {
   min-height: calc(100vh - var(--header-height));
+  padding: 50px 0;
 }
